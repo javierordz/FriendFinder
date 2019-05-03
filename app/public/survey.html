@@ -18,148 +18,214 @@
                 </div>
                 <div class="column">
                     <h1>FRIENDFINDER</h1>
-                    <h3>Look for friendship in all the right places</h3> 
+                    <h3 style="font-style: italic;">Look for friendship in all the right places</h3> 
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- SURVEY -->
     <div class="container">
         <h3><strong>TELL US ABOUT YOURSELF...</strong></h3>
-        <h4>Name <small>(required)</small></h4>
-        <input type="text" id="name" class="form-control" required>
+        <form class="form-inline">
+            <h5>Name <small>(required)</small></h5>
+            <input type="text" id="name" class="form-control mb-2 mr-sm-2" required>
 
-    <h4>Profile Pic <small>(URL required)</small></h4>
-    <input type="text" id="photo" class="form-control" required>
+            <h5>Profile Pic <small>(URL required)</small></h5>
+            <input type="text" id="photo" class="form-control mb-2 mr-sm-2" required>
+        </form>
+        <hr>
 
-    <hr>
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 1</strong></h3>
+                <select class="chosen-select" id="q1">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>I prefer to spend more time doing outdoor leisure activites than indoor activites.</h5>
+            </div>
+        </div>
+        <hr>
 
-    <h3><strong>Question 1</strong></h3>
-    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
-    <select class="chosen-select" id="q1">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 2</strong></h3>
+                <select class="chosen-select" id="q2">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>Family members merit special attention and the benefit of the doubt.</h5>
+            </div>
+        </div>
+        <hr>
 
-    <h3><strong>Question 2</strong></h3>
-    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
-    <select class="chosen-select" id="q2">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 3</strong></h3>
+                <select class="chosen-select" id="q3">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>Spirituality is an important part of my personal life and decision-making.</h5>
+            </div>
+        </div>
+        <hr>
 
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 4</strong></h3>
+                <select class="chosen-select" id="q4">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>I currently practice or am open to exploring dietary plans like vegetariansim, veganism, pescetarianism, etc.</h5>
+            </div>
+        </div>
+        <hr>
 
-    <h3><strong>Question 3</strong></h3>
-    <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
-    <select class="chosen-select" id="q3">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 5</strong></h3>
+                <select class="chosen-select" id="q5">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>I care about not having story elements and twists "spoiled" for my favorite media before I exprience them.</h5>
+            </div>
+        </div>
+        <hr>
 
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 6</strong></h3>
+                <select class="chosen-select" id="q6">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>Dressing up like a favorite ficitonal character sounds like a fun idea.</h5>
+            </div>
+        </div>
+        <hr>
 
-    <h3><strong>Question 4</strong></h3>
-    <h4>You rarely do something just out of sheer curiosity.</h4>
-    <select class="chosen-select" id="q4">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 7</strong></h3>
+                <select class="chosen-select" id="q7">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>Having a child/children is an eventual, major life goal for me.</h5>
+            </div>
+        </div>
+        <hr>
 
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 8</strong></h3>
+                <select class="chosen-select" id="q8">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>Society, as a whole, is better than it has been at any point in history.</h5>
+            </div>
+        </div>
+        <hr>
 
-    <h3><strong>Question 5</strong></h3>
-    <h4>People can rarely upset you.</h4>
-    <select class="chosen-select" id="q5">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 9</strong></h3>
+                <select class="chosen-select" id="q9">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>Hell is other people.</h5>
+            </div>
+        </div>
+        <hr>
 
-
-    <h3><strong>Question 6</strong></h3>
-    <h4>It is often difficult for you to relate to other people’s feelings.</h4>
-    <select class="chosen-select" id="q6">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
-
-
-    <h3><strong>Question 7</strong></h3>
-    <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
-    <select class="chosen-select" id="q7">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
-
-    <h3><strong>Question 8</strong></h3>
-    <h4>You rarely get carried away by fantasies and ideas.</h4>
-    <select class="chosen-select" id="q8">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
-
-    <h3><strong>Question 9</strong></h3>
-    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
-    <select class="chosen-select" id="q9">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
-
-    <h3><strong>Question 10</strong></h3>
-    <h4>You feel more energetic after spending time with a group of people.</h4>
-    <select class="chosen-select" id="q10">
-      <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
-    </select>
-
-    <br>
-    <br>
+        <div class="row">
+            <div class="col-3-md question">
+                <h3><strong>Question 10</strong></h3>
+                <select class="chosen-select" id="q10">
+                    <option value=""></option>
+                    <option value="1">1 (Strongly Disagree)</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5 (Strongly Agree)</option>
+                </select>
+            </div>
+            <div class="col-md my-auto">
+                <h5>The difference between facts and the truth is a necessary human element.</h5>
+            </div>
+        </div>
+        <hr>
+        <br>
 
     <!-- Submit Button -->
     <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
      Submit</button>
 
+    <br>
     <hr>
     <footer class="footer">
       <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+        <p><a href="/api/friends">API Friends</a> || <a href="https://github.com/javierordz/friendfinder">GitHub Repo</a></p>
       </div>
     </footer>
 

@@ -1,13 +1,9 @@
-h1, h3 {
+/* h1, h3 {
     text-align: left;
-}
+} */
 
 h1 {
     font-size: 4.75rem;
-}
-
-h3 {
-    font-style: italic
 }
 
 .jumbotron {
@@ -29,3 +25,8 @@ h3 {
     grid-gap: 50px;
 }
 
+.question {
+    border-right: 6px solid #2196F3;
+    background-color: #ddffff;
+    padding: 15px;
+}
