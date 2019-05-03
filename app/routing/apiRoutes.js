@@ -1,7 +1,15 @@
-// Routes
-app.get("/api/friends", function(req, res) {
-  return res.json(friends);
-});
+// DEPENDENCIES
+var friends = require("../data/friends");
+
+// ROUTING
+module.exports = function(app) {
+  app.get("/api/friends", function(req, res) {
+    res.json(friends);
+  });
+
+
+
+}
 
 // Submit click
 $("#submit").on("click", function(event) {

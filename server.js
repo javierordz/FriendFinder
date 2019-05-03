@@ -1,17 +1,18 @@
-// Dependencies
+// DEPENDENCIES
 var express = require("express");
-var path = require("path");
 
-// Setup Express
+// EXPRESS CONFIG
 var app = express();
-var PORT = 3000;
+var PORT = 8080;
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-require("./routes/apiRoutes")(app);
-require("./routes/htmlRoutes")(app);
+// ROUTING
+require("app/routing/apiRoutes")(app);
+require("app/routing/htmlRoutes")(app);
 
-// Server start
+// LISTENER
 app.listen(PORT, function() {
   console.log("App listening on PORT " + PORT);
 });
