@@ -5,6 +5,9 @@
 h1 {
     font-size: 4.75rem;
 }
+h5 {
+    margin-right: 7px;
+}
 
 .jumbotron {
     padding: 2rem !important;
@@ -18,11 +21,6 @@ h1 {
 .btn-grp {
     text-align: center;
     margin-top: 25px;
-}
-
-.grid-container {
-    display: grid;
-    grid-gap: 50px;
 }
 
 .question {
