@@ -1,0 +1,31 @@
+h1, h3 {
+    text-align: left;
+}
+
+h1 {
+    font-size: 4.75rem;
+}
+
+h3 {
+    font-style: italic
+}
+
+.jumbotron {
+    padding: 2rem !important;
+}
+
+#logo {
+    height: 150px;
+    padding-right: 100px;
+}
+
+.btn-grp {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: 50px;
+}
+
