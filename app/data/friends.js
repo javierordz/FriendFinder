@@ -1,5 +1,4 @@
 // DATA
-
 var friends = [
     {
         name: "Abraham Lincoln",
@@ -28,3 +27,4 @@ var friends = [
     },
   ];
   
+  module.exports = friends;
